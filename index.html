@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Login - Facebook</title>
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #f0f2f5;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .login-container {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      padding: 3rem 1rem;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    }
+
+    .forget-link {
+      text-align: center;
+      margin: 1rem 0;
+    }
+
+    .button {
+      background-color: #1877f2;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 6px;
+      font-size: 25px;
+      font-weight: bold;
+      border: none;
+    }
+
+    input {
+      padding: 1rem;
+      border-radius: 6px;
+      border: 1.5px solid #dddfe2;
+      outline: none;
+      margin-bottom: 1rem;
+    }
+
+    input:focus {
+      border-color: #1877f2;
+      \
+
+    }
+
+    input::placeholder {
+      /* color: rgb(206, 200, 200); */
+      color: green;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="facebook-brief">
+      <h1>facebook</h1>
+      <p>Facebook helps you connect and share with the people in your life.</p>
+    </div>
+    <div class="facebook-login-form">
+      <div class="login-container">
+        <input type="text" placeholder="Email address or phone number">
+        <input type="password" placeholder="Password">
+        <button class="button">Log In</button>
+        <a href="#" class="forget-link">Forgotten Password?</a>
+        <hr>
+        <button class="create-button">Create New Account</button>
+      </div>
+      <div class="create-page">
+        <p><a href="#" class="create-page-link">Create a Page</a> for a celebrity, brand or business.</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
